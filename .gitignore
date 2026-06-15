@@ -27,3 +27,6 @@ test_office_doc.txt
 待归档/test_cleanup_verify.md
 待归档/test_mcp_sync_01.md
 待归档/test_mcp_sync_02.md
+待归档/subdir/nested_test.txt
+待归档/test_mcp_sync_03.md
+待归档/test_unsupported.xyz
