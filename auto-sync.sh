@@ -91,6 +91,6 @@ if [ -d "$ARCHIVE_DIR" ]; then
 
         # 删除空目录
         find "$ARCHIVE_DIR" -type d -empty -delete 2>/dev/null
-        rmdir "$ARCHIVE_DIR" 2>/dev/null
+        rmdir "$ARCHIVE_DIR" 2>/dev/null || true
     fi
 fi
